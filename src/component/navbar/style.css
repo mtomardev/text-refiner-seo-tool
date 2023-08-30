@@ -1,0 +1,51 @@
+.navbar-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--headerBG);
+    padding: 0rem 8rem;
+    color: var(--TextColor);
+    height: 60px;
+}
+
+.navbar-flex h1{
+    margin: 0%;
+}
+
+.mode-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-flex{
+        
+        padding: 0rem 1rem ;
+    }      
+
+    .navbar-flex h1{
+        margin: 0%;
+        font-size: 1.5rem;
+    }
+
+    .dark-mode{
+        display: none !important;
+    }
+  }
+
+
+  @media only screen and (max-width: 400px) {
+    .navbar-flex{
+        
+        padding: 0rem 1rem ;
+    }      
+
+    .navbar-flex h1{
+        margin: 0%;
+        font-size: 1rem;
+    }
+
+   
+  }

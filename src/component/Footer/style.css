@@ -1,0 +1,10 @@
+.footer-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--headerBG);
+    color: var(--TextColor);
+    height: 60px;
+    font-weight: 600;
+}
+
